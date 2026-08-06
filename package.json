@@ -1,0 +1,26 @@
+{
+  "name": "ui_automation_playwright",
+  "version": "1.0.0",
+  "description": "Ui_Automation using Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihiragrawal1/Ui_Automation_Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mihiragrawal1/Ui_Automation_Playwright/issues"
+  },
+  "homepage": "https://github.com/mihiragrawal1/Ui_Automation_Playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
