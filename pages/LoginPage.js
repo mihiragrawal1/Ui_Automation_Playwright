@@ -25,7 +25,6 @@ export class LoginPage{
     async assertLoginError (){
         await expect(this.loginError).toBeVisible();
         await expect(this.loginError).toHaveText('Invalid email or password');
-
     }
 
 
