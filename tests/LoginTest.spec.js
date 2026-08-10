@@ -20,7 +20,6 @@ test("Validate login with incorrect username and password", async ({ page }) => 
     await loginPage.userLogin(invalidLoginCreds.username,invalidLoginCreds.password)
     await expect(page).toHaveURL("/login");
     await loginPage.assertLoginError();
-
 })
 
 test("Validate login with empty username and password", async ({ page }) => {
