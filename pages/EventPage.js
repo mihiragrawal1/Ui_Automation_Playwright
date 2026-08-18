@@ -13,7 +13,7 @@ export class EventPage {
     }
 
     async addNewEvent(){
-        await this.createEventButton.click();
+        await this.createEventButton.first().click();
     }
 
 

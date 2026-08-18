@@ -3,12 +3,11 @@ import { LoginPage } from '../pages/LoginPage'
 // import dotenv from 'dotenv';
 import {loginCreds,invalidLoginCreds} from '../testData/loginData'
 
-//username - testmihir@gmail.com and passwword is -Test@12345
 let loginPage;
 
 test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
-    await page.goto("/login")
+    await page.goto("/login") 
 })
 
 test("Validate valid login with correct username and password", async ({ page }) => {
