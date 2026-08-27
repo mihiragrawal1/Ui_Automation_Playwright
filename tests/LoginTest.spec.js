@@ -27,3 +27,5 @@ test("Validate login with empty username and password", async ({ page }) => {
     await expect(loginPage.emptyEmailErrorMsg).toBeVisible();
     await expect(loginPage.emptyPasswordErrorMsg).toBeVisible();
 })
+
+
